@@ -12,18 +12,22 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
-  siteUrl: 'https://xthirty77.github.io/running_page/',
+  siteTitle: 'Sea Running Page',
+  siteUrl: 'https://github.com/wuyueSea/running_page/',
   logo: logoPic,
   description: 'Personal site and blog',
   navLinks: [
     {
-      name: 'Summary',
+      name: '高驰',
+      url: 'https://www.coros.com/',
+    },
+    {
+      name: '统计',
       url: 'summary',
     },
     {
       name: 'Github',
-      url: 'https://github.com/xthirty77/running_page',
+      url: 'https://github.com/wuyueSea/running_page',
     },
   ],
 };
